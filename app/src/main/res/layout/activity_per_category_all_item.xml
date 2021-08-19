@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.PerCategoryAll_item">
+
+    <ImageButton
+        android:id="@+id/backArrowButtonFromPerCategoryAllItem"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_ripple"
+        android:onClick="backArrow"
+        android:src="@drawable/ic_back_arrow"
+        android:contentDescription="@string/back_arrow" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/searchCardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/backArrowButtonFromPerCategoryAllItem"
+       android:layout_margin="10dp"
+        android:layout_toEndOf="@id/backArrowButtonFromPerCategoryAllItem"
+        android:layout_toRightOf="@id/backArrowButtonFromPerCategoryAllItem"
+        app:cardCornerRadius="7dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardElevation="30dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/searchIdForPerCategoryAllItem"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/search_shape"
+                android:drawableStart="@drawable/ic_baseline_search_24"
+                android:drawableLeft="@drawable/ic_baseline_search_24"
+                android:drawablePadding="10dp"
+                android:hint="Search here....."
+                android:inputType="text"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                tools:ignore="Autofill,HardcodedText,RtlSymmetry" />
+
+            <ImageButton
+                android:id="@+id/searchClearIdForPerCategoryAllItem"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:background="@color/cardview_light_background"
+                android:onClick="clearSearchText"
+                android:src="@drawable/ic_baseline_clear_24"
+                tools:ignore="ContentDescription" />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/perCatAll_itemRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/searchCardView" />
+</RelativeLayout>

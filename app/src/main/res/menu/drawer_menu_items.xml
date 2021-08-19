@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/general">
+
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/my_order"
+                    android:icon="@drawable/briefcase"
+                    android:title="@string/my_order" />
+                <item
+                    android:id="@+id/my_cart"
+                    android:icon="@drawable/shoppingcart"
+                    android:title="@string/my_cart" />
+                <item
+                    android:id="@+id/my_wishList"
+                    android:icon="@drawable/heart"
+                    android:title="@string/my_wishlist" />
+            </group>
+        </menu>
+
+    </item>
+
+
+    <item android:title="@string/account">
+        <menu>
+            <item
+                android:id="@+id/my_account"
+                android:icon="@drawable/user"
+                android:title="@string/my_account" />
+            <item
+                android:id="@+id/sign_out"
+                android:icon="@drawable/log_out"
+                android:title="@string/sign_out" />
+        </menu>
+    </item>
+
+</menu>

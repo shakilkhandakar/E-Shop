@@ -1,0 +1,280 @@
+<resources>
+    <string name="app_name">E-Shop</string>
+    <string name="splash_logo">splash logo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="login_title">Login to Continue</string>
+    <string name="signUp_title">Sign to Continue</string>
+    <string name="both_address">Email address or Phone number</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forget_password">Forget Password ?</string>
+    <string name="full_name">Full Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="have_account">Already have an account?</string>
+    <string name="email_address">Email Address</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="don_t_have_an_account">Don\'t have an account? Sign Up!</string>
+    <string name="openDrawer">Open</string>
+    <string name="closeDrawer">Close</string>
+    <string name="my_order">My Order</string>
+    <string name="my_cart">My Cart</string>
+    <string name="my_rewards">My Rewards</string>
+    <string name="my_wishlist">My Wishlist</string>
+    <string name="my_account">My Profile</string>
+    <string name="general">General</string>
+    <string name="account">Account</string>
+    <string name="sign_out">Sign Out</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="book_items">Book Items</string>
+    <string name="shoes_items">Shoes Items</string>
+    <string name="toys_items">Toys Items</string>
+    <string name="sports_items">Sports Items</string>
+    <string name="fashion_items">Fashion Items</string>
+    <string name="furniture_items">Furniture Items</string>
+    <string name="electronics_items">Electronics Items</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="buy_now">Order Now</string>
+    <string name="new_password">New Password</string>
+    <string name="next">Next</string>
+    <string name="submit">Submit</string>
+
+    <string-array name="shopCategoriesName">
+        <item>Home</item>
+        <item>Book</item>
+        <item>Shoes</item>
+        <item>Toys</item>
+        <item>Sports</item>
+        <item>Fashion</item>
+        <item>Furniture</item>
+        <item>Electronics</item>
+    </string-array>
+
+    <string-array name="sliderImageUrl">
+        <item>https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQUc36D2VuFACsTrPL6yvo7VfFwgMObU1L1BcXM630s9LIAowUW</item>
+        <item>https://cdn.shopify.com/s/files/1/2578/0910/products/OSCO-Men-Dress-Shoes-Men-Formal-Shoes-Leather-Luxury-Fashion-Wedding-Shoes-Men-Business-Casual-Oxford_800x.jpg?v=1571763955</item>
+        <item>https://5.imimg.com/data5/YX/EJ/MY-39769511/teddy-bear-soft-toy-500x500.jpg</item>
+        <item>https://www.karnalguide.com/dealer_images/1690_1.jpg</item>
+        <item>https://gentwith.com/wp-content/uploads/2020/07/How-To-Style-and-Wear-Mens-Accessories.jpg</item>
+        <item>https://media.designcafe.com/wp-content/uploads/2019/11/17054917/latest-furniture-trends-2019.jpg</item>
+        <item>https://i.pinimg.com/originals/d1/e7/2a/d1e72a75d751e88dda806d4a230d3be1.png</item>
+    </string-array>
+
+<!--book collection-->
+    <string-array name="bookImageUrl">
+        <item>https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQUc36D2VuFACsTrPL6yvo7VfFwgMObU1L1BcXM630s9LIAowUW</item>
+        <item>https://images-na.ssl-images-amazon.com/images/I/61YlaJ1djUL.jpg</item>
+        <item>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394343439l/7218334.jpg</item>
+        <item>https://images-na.ssl-images-amazon.com/images/I/51MjGll5FdL._SX370_BO1,204,203,200_.jpg</item>
+        <item>https://www.guru99.com/images/2/060520_1101_16BESTPHPBo8.jpg</item>
+        <item>https://images.routledge.com/common/jackets/originals/978142006/9781420061314.tif</item>
+    </string-array>
+
+    <string-array name="bookName">
+        <item>Fluid Mechanics and it Application</item>
+        <item>Numerical Methods</item>
+        <item>Programing with Java</item>
+        <item>Schaum Outline Computer Graphics</item>
+        <item>PHP Advance</item>
+        <item>Digital Design</item>
+    </string-array>
+
+    <string-array name="bookPrice">
+        <item>630</item>
+        <item>1098</item>
+        <item>1078</item>
+        <item>1278</item>
+        <item>1366</item>
+        <item>1170</item>
+    </string-array>
+
+<!--shoes collection-->
+    <string-array name="shoesImageUrl">
+        <item>https://images-na.ssl-images-amazon.com/images/I/715QNKnDULL._UL1500_.jpg</item>
+        <item>https://5.imimg.com/data5/CH/ZY/EL/SELLER-102816206/formal-shoes-500x500.png</item>
+        <item>https://static.fibre2fashion.com/MemberResources/LeadResources/4/2016/1/Seller/16108627/Images/16108627_1_formal%20shoes.jpg</item>
+        <item>https://i.pinimg.com/originals/b5/49/bc/b549bcea0d84194630a6b49b637064a3.jpg</item>
+        <item>https://cdn.shopify.com/s/files/1/2578/0910/products/OSCO-Men-Dress-Shoes-Men-Formal-Shoes-Leather-Luxury-Fashion-Wedding-Shoes-Men-Business-Casual-Oxford_800x.jpg?v=1571763955</item>
+        <item>https://cdn.shopify.com/s/files/1/2570/4268/products/91819013A_600x.jpg?v=1588797543</item>
+    </string-array>
+
+    <string-array name="shoesName">
+        <item>Vincenzo Men Formal Shoes</item>
+        <item>Unisex Formal Shoes</item>
+        <item>Male Synthetic leather</item>
+        <item>Tone Formal Shoes</item>
+        <item>OSCO Men Dress Shoes Men Formal Shoes Leather </item>
+        <item>BOWLING - Men Formal Shoes</item>
+    </string-array>
+
+    <string-array name="shoesPrice">
+        <item>2630</item>
+        <item>3025</item>
+        <item>3500</item>
+        <item>2500</item>
+        <item>2800</item>
+        <item>4000</item>
+    </string-array>
+
+    <!--toys collection-->
+    <string-array name="toysImageUrl">
+        <item>https://images.indianexpress.com/2019/09/toys.jpg</item>
+        <item>https://5.imimg.com/data5/YX/EJ/MY-39769511/teddy-bear-soft-toy-500x500.jpg</item>
+        <item>https://thumbs.dreamstime.com/z/baby-toys-10562882.jpg</item>
+        <item>https://www.toi-toys.com/media/wysiwyg/Catagorieen/Toi-Toys-winkeliers2-WEB.jpg</item>
+        <item>https://static6.depositphotos.com/1061185/632/i/950/depositphotos_6323622-stock-photo-toys-on-a-carpet.jpg</item>
+        <item>https://rukminim1.flixcart.com/image/612/612/k3orqfk0/vehicle-pull-along/4/u/s/unbreakable-pull-back-texi-car-truck-bus-plane-toy-for-boys-original-imafmrphasfbr7ha.jpeg?q=70</item>
+    </string-array>
+
+    <string-array name="toysName">
+        <item>7 reasons kids Toys </item>
+        <item>Brown Bow Wearing Teddy Bear </item>
+        <item>Baby Rattler Toys</item>
+        <item>Toi - Toys</item>
+        <item>Toys for Kids - Best Buy</item>
+        <item>Cars, Trains and Bikes Toys: </item>
+    </string-array>
+
+    <string-array name="toysPrice">
+        <item>260</item>
+        <item>325</item>
+        <item>350</item>
+        <item>250</item>
+        <item>280</item>
+        <item>400</item>
+    </string-array>
+
+    <!--sports collection-->
+    <string-array name="sportsImageUrl">
+        <item>https://www.karnalguide.com/dealer_images/1690_1.jpg</item>
+        <item>https://i.pinimg.com/originals/d6/37/c9/d637c98257cc04876e63e2a944dec8d9.jpg</item>
+        <item>https://edsports.ie/wp-content/uploads/2017/08/hockey_keyrings_pens_and_miniature_hockey_sticks.jpg</item>
+        <item>https://images-na.ssl-images-amazon.com/images/I/517-CnVXKmL.jpg</item>
+        <item>https://cdn.shopify.com/s/files/1/2610/9472/products/golftset2_480x480_crop_center.jpg?v=1597239324</item>
+        <item>https://allsport-group.com/storage/brands/slides/FXHAKzd4.jpg</item>
+    </string-array>
+
+    <string-array name="sportsName">
+        <item>Cricket Accessories</item>
+        <item>Football Training Pack </item>
+        <item>Hokey Accessories</item>
+        <item>Badminton Accessories</item>
+        <item>Bentley Golf Accessories </item>
+        <item>Basketball Accessories </item>
+    </string-array>
+
+    <string-array name="sportsPrice">
+        <item>4260</item>
+        <item>3325</item>
+        <item>3550</item>
+        <item>2250</item>
+        <item>3280</item>
+        <item>3400</item>
+    </string-array>
+
+ <!--fashion collection-->
+    <string-array name="fashionImageUrl">
+        <item>https://cdn.shopify.com/s/files/1/1209/1968/files/Hidesign.jpg?8663230547561987584</item>
+        <item>https://www.newsleaderonline.com/wp-content/uploads/2020/06/dfRdmB2G5icsHEyYCFP48zoMZsScbNI41591384564.jpg</item>
+        <item>https://gentwith.com/wp-content/uploads/2020/07/How-To-Style-and-Wear-Mens-Accessories.jpg</item>
+        <item>https://cdn.hiconsumption.com/wp-content/uploads/2018/04/Best-Style-Accessories-For-Men.jpg</item>
+        <item>https://i.dlpng.com/static/png/6435050_preview.png</item>
+        <item>https://freedesignfile.com/upload/2017/06/Fashion-design-female-accessories-Stock-Photo-02.jpg</item>
+    </string-array>
+
+    <string-array name="fashionName">
+        <item>Leather bag for fashion</item>
+        <item>Fashion Accessories for Both Men and Women</item>
+        <item>The Best Men Accessories</item>
+        <item>Best Style Accessories For Men</item>
+        <item>Women accessories </item>
+        <item>Fashion design female accessories</item>
+    </string-array>
+
+    <string-array name="fashionPrice">
+        <item>960</item>
+        <item>1325</item>
+        <item>1150</item>
+        <item>1250</item>
+        <item>1000</item>
+        <item>800</item>
+    </string-array>
+
+<!--furniture collection-->
+    <string-array name="furnitureImageUrl">
+        <item>https://media.designcafe.com/wp-content/uploads/2019/11/17054917/latest-furniture-trends-2019.jpg</item>
+        <item>https://www.precedent-furniture.com/sites/precedent-furniture.com/files/styles/header_slideshow/public/3340_S1_final_home.jpg?itok=L1A3aDyc</item>
+        <item>https://thumbs.dreamstime.com/b/urban-jungle-trendy-living-room-interior-white-couch-black-knot-pillow-wooden-furniture-copy-space-empty-wall-174228512.jpg</item>
+        <item>https://images-na.ssl-images-amazon.com/images/I/61IHi71wKNL._SX425_.jpg</item>
+        <item>https://www.atwork.ca/wp-content//uploads/2016/06/BEL-LTW-Artisan-800a-1024x1024.jpg</item>
+        <item>https://img.edilportale.com/product-thumbs/b_BESPOKE-CONFERENCE-TABLES-Round-meeting-table-PROF-312473-rel7dff345c.jpg</item>
+    </string-array>
+
+    <string-array name="furnitureName">
+        <item>Latest Bed with drawer</item>
+        <item>Precedent Furniture</item>
+        <item>Sofa with green environment</item>
+        <item>Wooden Table and Chair</item>
+        <item>Meeting Table </item>
+        <item>Round meeting table</item>
+    </string-array>
+
+    <string-array name="furniturePrice">
+        <item>19650</item>
+        <item>23225</item>
+        <item>21520</item>
+        <item>5250</item>
+        <item>10500</item>
+        <item>28700</item>
+    </string-array>
+
+    <!--electronics collection-->
+    <string-array name="electronicsImageUrl">
+        <item>https://i.pinimg.com/originals/d1/e7/2a/d1e72a75d751e88dda806d4a230d3be1.png</item>
+        <item>https://thumbs.dreamstime.com/b/many-used-modern-electronic-gadgets-use-wooden-cases-white-background-reuse-recycle-concept-154801736.jpg</item>
+        <item>https://cdn.shopify.com/s/files/1/1990/3257/products/universal_travel_cable_organizer_case_electronics_accessories_carry_bag_for_9.7_inch_ipad_kindle_power_adapter_mac_book_charger-8_2048x.jpg?v=1605598404</item>
+        <item>https://thumbs.dreamstime.com/z/spare-parts-electronic-devices-accessories-repair-electronics-equipment-66233288.jpg</item>
+        <item>https://trig.com.bd/media/catalog/product/cache/1/image/800x524.26666666667/9df78eab33525d08d6e5fb8d27136e95/s/b/sbc05147_1_.jpg</item>
+        <item>https://aladinerprodip.com/frd_content/img/product/2021/01/15569_89_1frd.jpeg</item>
+    </string-array>
+
+    <string-array name="electronicsName">
+        <item>Wholesale Phone Accessories</item>
+        <item>Gadgets Package</item>
+        <item>Venice Electronic Organizer</item>
+        <item>Spare Parts Of Electronic Devices</item>
+        <item>Electronics Accessories Organizer Case</item>
+        <item>Realme-Buds</item>
+    </string-array>
+
+    <string-array name="electronicsPrice">
+        <item>9650</item>
+        <item>2322</item>
+        <item>1520</item>
+        <item>5250</item>
+        <item>1500</item>
+        <item>2700</item>
+    </string-array>
+
+
+    <string name="itemDescription">
+        Online shopping is a form of electronic commerce which allows consumers to directly buy
+        goods or services from a seller over the Internet using a web browser or a mobile app.
+    </string>
+
+    <string name="back_arrow">back arrow</string>
+    <string name="carticon">cartIcon</string>
+    <string name="based_your_choice_more_items">More items available here</string>
+    <string name="delete">Delete</string>
+    <string name="cart_is_empty">Cart is empty !</string>
+    <string name="continue_shopping">Continue shopping</string>
+    <string name="check_out">Check Out</string>
+    <string name="confirm_order">Confirm Order</string>
+    <string name="product_information">Product Information</string>
+    <string name="delivery_information">Delivery Information</string>
+    <string name="total_amount">Total Amount:</string>
+    <string name="wishlist_is_empty">WishList is empty !</string>
+    <string name="orderlist_is_empty">OrderList is empty !</string>
+
+</resources>
